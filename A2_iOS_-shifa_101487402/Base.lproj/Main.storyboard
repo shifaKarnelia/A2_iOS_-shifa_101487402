@@ -136,6 +136,14 @@
                         <barButtonItem key="leftBarButtonItem" image="text.pad.header.badge.plus" catalog="system" id="nOS-Mk-Mmg"/>
                         <barButtonItem key="rightBarButtonItem" title="View List" id="m0n-bN-wK4"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="productDescriptionValueLabel" destination="OH7-jZ-Ddb" id="dAs-Fd-mYw"/>
+                        <outlet property="productIDValueLabel" destination="FyV-Qr-QkA" id="NhV-hi-Q2s"/>
+                        <outlet property="productNameValueLabel" destination="ehZ-I1-K4p" id="Hpx-fT-CD6"/>
+                        <outlet property="productPriceValueLabel" destination="2ww-pq-7XY" id="eab-ei-I4r"/>
+                        <outlet property="productProviderValueLabel" destination="yho-D3-xC2" id="PdE-Uf-yAH"/>
+                        <outlet property="searchBar" destination="enN-Fb-9cC" id="O8P-D7-0mH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
