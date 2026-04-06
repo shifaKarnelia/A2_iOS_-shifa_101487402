@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="edi-ha-NYb">
-                                <rect key="frame" x="16" y="266" width="361" height="161.66666666666663"/>
+                                <rect key="frame" x="16" y="328" width="361" height="161.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lA4-Lw-Dds">
                                         <rect key="frame" x="0.0" y="0.0" width="321.33333333333331" height="161.66666666666666"/>
@@ -91,6 +91,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Viewer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yO-Jf-0Vj">
+                                <rect key="frame" x="16" y="279" width="222" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -99,7 +106,10 @@
                             <constraint firstItem="edi-ha-NYb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="exs-by-fF2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="2Gq-gd-Bmt"/>
+                    <navigationItem key="navigationItem" id="2Gq-gd-Bmt">
+                        <barButtonItem key="leftBarButtonItem" image="text.pad.header.badge.plus" catalog="system" id="nOS-Mk-Mmg"/>
+                        <barButtonItem key="rightBarButtonItem" title="View List" id="m0n-bN-wK4"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,6 +135,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="text.pad.header.badge.plus" catalog="system" width="128" height="109"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
