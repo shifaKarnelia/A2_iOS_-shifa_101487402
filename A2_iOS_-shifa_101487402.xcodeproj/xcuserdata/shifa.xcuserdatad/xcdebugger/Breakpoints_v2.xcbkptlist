@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4B3DEFCC-3D53-49AA-B644-2C1528013F96"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "379A4A41-F7EF-4960-A1E0-7321CF56AFDE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "A2_iOS_-shifa_101487402/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "379A4A41-F7EF-4960-A1E0-7321CF56AFDE - 741e13ea85411770"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A2_iOS__shifa_101487402.ViewController.products.getter : Swift.Array&lt;A2_iOS__shifa_101487402.Product&gt;"
+                  moduleName = "A2_iOS_-shifa_101487402.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shifa/Desktop/mobileApp/A2_iOS_-shifa_101487402/A2_iOS_-shifa_101487402/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "379A4A41-F7EF-4960-A1E0-7321CF56AFDE - 2eaa91953e3529fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A2_iOS__shifa_101487402.ViewController.products.setter : Swift.Array&lt;A2_iOS__shifa_101487402.Product&gt;"
+                  moduleName = "A2_iOS_-shifa_101487402.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shifa/Desktop/mobileApp/A2_iOS_-shifa_101487402/A2_iOS_-shifa_101487402/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "379A4A41-F7EF-4960-A1E0-7321CF56AFDE - 4a3b85f033ff7a13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A2_iOS__shifa_101487402.ViewController.products.modify : Swift.Array&lt;A2_iOS__shifa_101487402.Product&gt;"
+                  moduleName = "A2_iOS_-shifa_101487402.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shifa/Desktop/mobileApp/A2_iOS_-shifa_101487402/A2_iOS_-shifa_101487402/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "379A4A41-F7EF-4960-A1E0-7321CF56AFDE - de9649e6c403248c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A2_iOS__shifa_101487402.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; A2_iOS__shifa_101487402.ViewController"
+                  moduleName = "A2_iOS_-shifa_101487402.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shifa/Desktop/mobileApp/A2_iOS_-shifa_101487402/A2_iOS_-shifa_101487402/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "379A4A41-F7EF-4960-A1E0-7321CF56AFDE - 8f5fec8e2ff68c48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "A2_iOS__shifa_101487402.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;A2_iOS__shifa_101487402.ViewController&gt;"
+                  moduleName = "A2_iOS_-shifa_101487402.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shifa/Desktop/mobileApp/A2_iOS_-shifa_101487402/A2_iOS_-shifa_101487402/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
