@@ -7,8 +7,10 @@
 import UIKit
 import CoreData
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,UISearchBarDelegate{
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     @IBOutlet weak var productIDValueLabel: UILabel!
     @IBOutlet  weak var productNameValueLabel: UILabel!
 
