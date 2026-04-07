@@ -23,6 +23,8 @@ class ViewController: UIViewController ,UISearchBarDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        searchBar.delegate = self
+        searchBar.placeholder = "Search by na,e or description"
         insertSampleProductsIfNeeded()
         fetchProducts()
         showCurrentProduct()
@@ -116,6 +118,33 @@ class ViewController: UIViewController ,UISearchBarDelegate{
             showCurrentProduct()
         }
     }
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        guard let text = searchBar.text, !text.trimmingCharacters(in: .whitespaces).isEmpty else {
+            fetchProducts()
+            currentIndex = 0
+            showCurrentProduct()
+            searchBar.resignFirstResponder()
+            return
+        }
+
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let request: NSFetchRequest<Product> = Product.fetchRequest()
+        request.predicate = NSPredicate(
+            format: "productName CONTAINS[cd] %@ OR productDescription CONTAINS[cd] %@",
+            text, text
+        )
+
+        do {
+            products = try context.fetch(request)
+            currentIndex = 0
+            showCurrentProduct()
+        } catch {
+            print("Search error: \(error)")
+        }
+
+        searchBar.resignFirstResponder()
+    }
+
 }
 
 
