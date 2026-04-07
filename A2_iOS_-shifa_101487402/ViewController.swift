@@ -41,6 +41,7 @@ class ViewController: UIViewController {
 
         do {
             products = try context.fetch(request)
+            print("Products count: \(products.count)")
         } catch {
             print("Fetch error: \(error)")
         }
@@ -117,3 +118,4 @@ class ViewController: UIViewController {
 
 
     
+
