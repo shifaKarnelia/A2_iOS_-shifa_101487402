@@ -151,7 +151,11 @@
                                 <segue destination="uol-SB-UIo" kind="show" id="RG2-Gr-6ox"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="View List" id="m0n-bN-wK4"/>
+                        <barButtonItem key="rightBarButtonItem" title="View List" id="m0n-bN-wK4">
+                            <connections>
+                                <segue destination="oaV-eC-aNz" kind="show" id="ahp-ym-04V"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="productDescriptionValueLabel" destination="OH7-jZ-Ddb" id="HIZ-Ba-C8Y"/>
@@ -188,6 +192,10 @@
                             <constraint firstItem="ptM-LV-wfF" firstAttribute="leading" secondItem="Bhi-j6-Z21" secondAttribute="leading" id="pfT-Xo-VGN"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9mU-FB-gtL"/>
+                    <connections>
+                        <outlet property="tableView" destination="ptM-LV-wfF" id="sMF-xa-JKy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDg-R9-bpa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
