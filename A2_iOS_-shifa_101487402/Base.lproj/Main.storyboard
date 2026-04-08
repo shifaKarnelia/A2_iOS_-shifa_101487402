@@ -177,6 +177,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Save Product"/>
+                                <connections>
+                                    <action selector="saveButtonTapped:" destination="uol-SB-UIo" eventType="touchUpInside" id="SdN-gn-Lxc"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="YZS-Aj-dmO">
                                 <rect key="frame" x="16" y="334" width="372" height="206"/>
@@ -265,6 +268,13 @@
                             <constraint firstItem="PdX-Ah-m3k" firstAttribute="trailing" secondItem="YZS-Aj-dmO" secondAttribute="trailing" constant="15" id="vV7-NT-tjU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="Vbg-y3-yf7" id="9NC-Wb-NoC"/>
+                        <outlet property="idTextField" destination="lnB-MN-GRg" id="F70-v0-9mo"/>
+                        <outlet property="nameTextField" destination="x5s-be-yip" id="5be-8Z-JcO"/>
+                        <outlet property="priceTextField" destination="0Wg-rv-iDf" id="oJa-hZ-dEi"/>
+                        <outlet property="providerTextField" destination="qwc-jl-dDT" id="pIU-RJ-jfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ATs-cT-39x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
